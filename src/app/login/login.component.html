@@ -1,0 +1,19 @@
+<div class="container">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+                <div class="main">
+                    <h4>Welcome to Axis Bank <br>
+                    <h5>{{aim}}</h5></h4><br>
+                <input type="text" placeholder="Account number" [value]=accno class="text" (change)="accnochange($event)"><br><br>
+                <input type="password" placeholder="password" class="text" (change)="pswdchange($event)"><br><br>
+                <input type="button" value="Login" class="button butefct" (click)="login()"><br><br>
+            
+                <a href="#">Forgotten password?</a>
+                <input type="button" value="Create new Account" class="button butefct"><br><br>   
+                </div>
+            </div>
+            <div class="col-4"></div>
+        </div>
+</div>
+
